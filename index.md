@@ -1,4 +1,5 @@
-# Test 1
+# Lab Report 1
+## Test 1
 
 * *Italicized text*
 * ** Bold text**
