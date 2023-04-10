@@ -8,7 +8,7 @@
 
 ## Step 2: Remotely Connecting
 1. Intall git using this link: <https://gitforwindows.org/>.
-2. Open VSCode and open a new terminal by using the shortcut `Ctrl` + `.
+2. Open VSCode and open a new terminal by using the shortcut `Ctrl` + ```.
 3. Open the command pallete using `Ctrl` + `Shift` + `P`. Then search for "Temrinal: Select Default Profile" and select "Git Bash".
 4. Press `+` on the terminal to open a new Bash terminal. You should have something like this:
 ![Image](Screenshot 2023-04-09 214853.png)
