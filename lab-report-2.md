@@ -1,4 +1,4 @@
-# Lab Report 3
+# Lab Report 2
 ## Part 1
 StringServer.java:
 ```
@@ -36,12 +36,14 @@ class StringServer {
 ```
 
 Screenshot 1:
+
 ![Screenshot 1](Screenshot 2023-04-23 165610.png)
 1. `StringHandler()` is called.
 2. The relevant argument is `url`, and the relevant feilds are `runningString=""`, `parameters[0]="s"` and `parameters[1]="Hello"`.
 3. `runningString` changes to `Hello\n`. 
 
 Screenshot 2:
+
 ![Screenshot 2](Screenshot 2023-04-23 165949.png)
 1. `StringHandler()` is called.
 2. The relevant argument is `url`, and the relevant feilds are `runningString="Hello\n"`, `parameters[0]="s"` and `parameters[1]="How are you"`.
@@ -68,6 +70,7 @@ Paasing Test:
   }
 ```
 Symptoms:
+
 ![Screenshot Results](Screenshot 2023-04-23 171650.png)
 
 Bugged Code:
