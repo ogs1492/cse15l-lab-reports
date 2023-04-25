@@ -1,13 +1,13 @@
 # Lab Report 1
 ## Step 1: Intsalling VS Code
-1. Go to [the VS Code website]<https://code.visualstudio.com> and download the VSCode installer for your desired operating system.
+1. Go to [the VS Code website](https://code.visualstudio.com) and download the VSCode installer for your desired operating system.
 2. Run the installer and folow the onscreen instructions.
 ![Image](Screenshot 2023-04-09 214214.png)
 3. Once you are done, you should have something the looks like this:
 ![Image](Screenshot 2023-04-06 144831.png)
 
 ## Step 2: Remotely Connecting
-1. Intall git using this link: (https://gitforwindows.org/).
+1. Intall git using [this link](https://gitforwindows.org/).
 2. Open VSCode and open a new terminal by using the shortcut `Ctrl` + `.
 3. Open the command pallete using `Ctrl` + `Shift` + `P`. Then search for "Temrinal: Select Default Profile" and select "Git Bash".
 4. Press `+` on the terminal to open a new Bash terminal. You should have something like this:
