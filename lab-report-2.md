@@ -38,14 +38,14 @@ class StringServer {
 Screenshot 1:
 
 ![Screenshot 1](Screenshot 2023-04-23 165610.png)
-1. `StringHandler()` is called.
+1. `StringHandler.handleRequest()` is called.
 2. The relevant argument is `url`, and the relevant feilds are `runningString=""`, `parameters[0]="s"` and `parameters[1]="Hello"`.
 3. `runningString` changes to `Hello\n`. 
 
 Screenshot 2:
 
 ![Screenshot 2](Screenshot 2023-04-23 165949.png)
-1. `StringHandler()` is called.
+1. `StringHandler.handleRequest()` is called.
 2. The relevant argument is `url`, and the relevant feilds are `runningString="Hello\n"`, `parameters[0]="s"` and `parameters[1]="How are you"`.
 3. `runningString` changes to `Hello\nHow are you\n`. 
 
@@ -64,9 +64,9 @@ Paasing Test:
 ```
   @Test
   public void testReverseInPlacePass(){
-    int[] input1 = {1,2,3,2,1};
+    int[] input1 = {0,0,0,0,0};
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{1,2,3,2,1 }, input1);
+    assertArrayEquals(new int[]{0,0,0,0,0}, input1);
   }
 ```
 Symptoms:
