@@ -1,4 +1,7 @@
 # Lab Report 3
+
+Source: (https://man7.org/linux/man-pages/man1/find.1.html)
+
 ## `-type`
 ```
 $ find technical -name "*ov*" -type "d"
