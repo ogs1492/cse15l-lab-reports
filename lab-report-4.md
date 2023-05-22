@@ -46,6 +46,6 @@ Keys Pressed: `git add L<tab>.j<tab><enter><enter>ifixed ListExamples.java<esc>:
 
 I typed the `git add` and autocompleted the file. Vim was opened up. I typed in the commit message and exited while saving. I then pushed the commit to GitHub.
 
-![image](Screenshot 2023-05-22 003700)
+![image](Screenshot 2023-05-22 003700.png)
 
 
